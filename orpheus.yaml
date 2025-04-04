@@ -1,3 +1,5 @@
 machine:
   network:
     hostname: orpheus
+cluster:
+  allowSchedulingOnControlPlanes: true

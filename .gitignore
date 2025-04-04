@@ -1,2 +1,5 @@
 .direnv
 secrets.yaml
+controlplane.yaml
+worker.yaml
+talosconfig

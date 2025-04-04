@@ -14,7 +14,8 @@ Experiements with a kubernetes based infrastructure
 4. Create the Cluster
 
 ```
-talosctl gen config <cluster-name> <cluster-endpoint>
+talosctl gen secrets -o secrets.yaml
+talosctl gen config --with-secrets secrets.yaml <cluster-name> <cluster-endpoint>
 ```
 5. Edit .yaml files
 
