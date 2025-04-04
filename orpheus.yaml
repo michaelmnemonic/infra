@@ -1,5 +1,7 @@
 machine:
   network:
     hostname: orpheus
+  install:
+    disk: /dev/vda
 cluster:
   allowSchedulingOnControlPlanes: true
