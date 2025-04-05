@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: '.*(controlplane|worker)\.yaml$'
+    encrypted_regex: '^(aggregatorCA|ca|cert|crt|endpoint|id|key|secretboxEncryptionSecret|secretclusterName|token)$'
+    age: 'age1ttxzpjecr949w5hs9hqmcvtdjfpr6xmfyxlv4axa2jfcuhaf8pnszyagt2'
