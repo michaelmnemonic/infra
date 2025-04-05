@@ -9,15 +9,19 @@
 
     devShell.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.pkgs.mkShell {
       buildInputs = with nixpkgs.legacyPackages.x86_64-linux.pkgs; [
-        talosctl
+        age
         kubectl
+        sops
+        talosctl
       ];
     };
 
     devShell.aarch64-linux = nixpkgs.legacyPackages.aarch64-linux.pkgs.mkShell {
       buildInputs = with nixpkgs.legacyPackages.aarch64-linux.pkgs; [
-        talosctl
+        age
         kubectl
+        sops
+        talosctl
       ];
     };
   };
